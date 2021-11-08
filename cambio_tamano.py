@@ -20,6 +20,7 @@ print("Directory '% s' created" % directory)
 
 lis_imgjpg = glob.glob(parent_dir + '/*.jpg')
 
+#deja de forma rectangular
 for item in lis_imgjpg:
     # print(item)
     basewidth = 600
@@ -33,3 +34,14 @@ for item in lis_imgjpg:
     print(path1 + "/" + nomb)
     # guardar en la carpeta de convertidas
     img.save(path1 + "/" + nomb)
+
+# for item in lis_imgjpg:
+#     # print(item)
+#
+#     img = Image.open(item)
+#     # extraer nombre del archivo
+#     nomb = os.path.basename(item)
+#
+#     print(path1 + "/" + nomb)
+#     # guardar en la carpeta de convertidas
+#     img.save(path1 + "/" + nomb,quality=7)
