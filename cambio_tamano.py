@@ -2,7 +2,7 @@ from PIL import Image
 import os, sys
 import glob
 
-path = r"C:\Users\jorge\Downloads\Photos (1)"
+path = r"C:\Users\jorge\Downloads\Photos (2)"
 path = os.path.abspath(path)
 dirs = os.listdir( path )
 
