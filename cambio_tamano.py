@@ -1,5 +1,5 @@
 from PIL import Image
-import os, sys
+import os
 import glob
 
 path = r"C:\Users\jorge\Downloads\Photos (2)"
